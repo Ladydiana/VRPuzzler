@@ -1,0 +1,1745 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &17462771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 17462772}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17462772
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 17462771}
+  m_LocalRotation: {x: -0.0003981293, y: 0.00000001490116, z: 5.932589e-12, w: 0.99999994}
+  m_LocalPosition: {x: -0.08110502, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.99999994}
+  m_Children:
+  - {fileID: 1783005649}
+  m_Father: {fileID: 1345305012}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &45399940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 45399941}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &45399941
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 45399940}
+  m_LocalRotation: {x: -0.00037391932, y: -0.016557166, z: -0.0075776647, w: 0.9998342}
+  m_LocalPosition: {x: -0.09532625, y: 0.0000000023841857, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 1471929592}
+  m_Father: {fileID: 608357073}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &64048778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 64048779}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &64048779
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 64048778}
+  m_LocalRotation: {x: -0.49999964, y: 0.50000036, z: 0.49999964, w: 0.50000036}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 1867539106}
+  m_Father: {fileID: 1512421596}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &101500833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 101500834}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101500834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 101500833}
+  m_LocalRotation: {x: -1.1027956e-15, y: -4.4408926e-16, z: 1, w: 6.123234e-17}
+  m_LocalPosition: {x: -0.013321304, y: -2.9802322e-10, z: 0}
+  m_LocalScale: {x: -1, y: -0.99999994, z: -0.99999994}
+  m_Children: []
+  m_Father: {fileID: 560140412}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &178391965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 178391966}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178391966
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 178391965}
+  m_LocalRotation: {x: 5.551115e-17, y: 0.000000007450581, z: 1, w: 0.000000007450581}
+  m_LocalPosition: {x: -0.027752705, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 864561959}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &192153729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 192153730}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &192153730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 192153729}
+  m_LocalRotation: {x: 0, y: 2.2176606e-17, z: -0, w: 1}
+  m_LocalPosition: {x: -0.013321294, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 1471929592}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &257556185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 257556186}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &257556186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 257556185}
+  m_LocalRotation: {x: 0.011995647, y: 0.9997909, z: -0.0002567013, w: -0.016559688}
+  m_LocalPosition: {x: 0.10212314, y: -0.0010868632, z: -0.084463306}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 608357073}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &323308237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 323308238}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &323308238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 323308237}
+  m_LocalRotation: {x: 0.002173134, y: 0.016257675, z: -0.11697713, w: 0.9929992}
+  m_LocalPosition: {x: -0.09532626, y: 0.0000000023841857, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 560140412}
+  m_Father: {fileID: 1395315019}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &341150068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 341150069}
+  m_Layer: 0
+  m_Name: AliceGirl_F_C02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &341150069
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 341150068}
+  m_LocalRotation: {x: 0.0000000013521518, y: -0.000000013267233, z: 0.101391435,
+    w: 0.99484664}
+  m_LocalPosition: {x: -0.14786501, y: 0, z: -0.00000001013279}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1311322627}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &370776051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 370776052}
+  - component: {fileID: 370776053}
+  m_Layer: 0
+  m_Name: AliceGirl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &370776052
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 370776051}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 906792021}
+  - {fileID: 1512421596}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &370776053
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca,
+    type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 370776051}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5f2c9cb708c67f94ab55061c1e7d04a9, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 8ecef426c8addcf44915f378ce7ac851, type: 3}
+  - {fileID: 7400000, guid: 5f2c9cb708c67f94ab55061c1e7d04a9, type: 3}
+  - {fileID: 7400000, guid: 58c7df4dd04726d439df1f1ad7e474c1, type: 3}
+  - {fileID: 7400000, guid: b7a0eeba715e76a43a8408b65160aaa8, type: 3}
+  - {fileID: 7400000, guid: 7c160ce83ded0544d857c1a2ef860c67, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1 &547742212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 547742213}
+  m_Layer: 0
+  m_Name: AliceGirl_H01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547742213
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 547742212}
+  m_LocalRotation: {x: 0.33662948, y: -0.43469104, z: 0.7511209, w: 0.36543348}
+  m_LocalPosition: {x: -0.4502294, y: 0.15201497, z: -0.30614468}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &560140411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 560140412}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560140412
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 560140411}
+  m_LocalRotation: {x: 0.00000003687863, y: -0.0000006269345, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.040863585, y: 0.1021236, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 101500834}
+  m_Father: {fileID: 323308238}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &566867101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 566867102}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566867102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 566867101}
+  m_LocalRotation: {x: 4.0078946e-14, y: 0.00000004299484, z: -0.015500763, w: 0.9998799}
+  m_LocalPosition: {x: -0.06652404, y: -0.10347568, z: -0.00000014662743}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 1935418836}
+  - {fileID: 547742213}
+  - {fileID: 1942233198}
+  - {fileID: 903673288}
+  - {fileID: 786359014}
+  - {fileID: 1283216600}
+  m_Father: {fileID: 614507987}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &568627487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 568627488}
+  m_Layer: 0
+  m_Name: AliceGirl_R_H02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568627488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 568627487}
+  m_LocalRotation: {x: 0.05374317, y: 0.29294983, z: -0.0843003, w: 0.9508867}
+  m_LocalPosition: {x: -0.1572303, y: -0.00000022888183, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 786359014}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &587134231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 587134232}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &587134232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 587134231}
+  m_LocalRotation: {x: 0, y: 0, z: -0.70710635, w: 0.7071073}
+  m_LocalPosition: {x: -0, y: 0, z: -0.3318303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1512421596}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &608357072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 608357073}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &608357073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 608357072}
+  m_LocalRotation: {x: -6.06139e-11, y: 0.0000000018625682, z: 0.0012918701, w: 0.99999917}
+  m_LocalPosition: {x: -0.1958265, y: -0.0000000023841857, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 45399941}
+  m_Father: {fileID: 257556186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &614507986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 614507987}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &614507987
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 614507986}
+  m_LocalRotation: {x: -1.831868e-14, y: -3.5527137e-15, z: -6.5081025e-29, w: 1}
+  m_LocalPosition: {x: -0.15500808, y: -0.000053036212, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 566867102}
+  - {fileID: 1630767972}
+  - {fileID: 877736507}
+  m_Father: {fileID: 2100343402}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &786359013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 786359014}
+  m_Layer: 0
+  m_Name: AliceGirl_R_H01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &786359014
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 786359013}
+  m_LocalRotation: {x: -0.20293175, y: 0.6367511, z: 0.68447345, w: 0.29131222}
+  m_LocalPosition: {x: -0.11405159, y: -0.08432972, z: 0.23929912}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 568627488}
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &860144917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 860144918}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &860144918
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 860144917}
+  m_LocalRotation: {x: -0.10418326, y: -0.60749424, z: -0.18663834, w: 0.76502466}
+  m_LocalPosition: {x: -0.120224915, y: 0.0000000011920929, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+  m_Children:
+  - {fileID: 1834123631}
+  m_Father: {fileID: 1630767972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &863712577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 863712578}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863712578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 863712577}
+  m_LocalRotation: {x: -0.031942997, y: 0.99935514, z: -0.00045410375, w: 0.016395507}
+  m_LocalPosition: {x: 0.10212314, y: -0.001087333, z: 0.084463306}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 1395315019}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &864561958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 864561959}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864561959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 864561958}
+  m_LocalRotation: {x: 0.00039812925, y: 0.000000014892259, z: -0.00000002235767,
+    w: 0.99999994}
+  m_LocalPosition: {x: -0.08110501, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 178391966}
+  m_Father: {fileID: 917314717}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &877736506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 877736507}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877736507
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 877736506}
+  m_LocalRotation: {x: 0.7473589, y: 0.000296644, z: 0.6644204, w: -0.0002655828}
+  m_LocalPosition: {x: -0, y: 0.000053124426, z: -0.03215289}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1181933770}
+  m_Father: {fileID: 614507987}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &902466773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 902466774}
+  m_Layer: 0
+  m_Name: AliceGirl_B_C02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902466774
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 902466773}
+  m_LocalRotation: {x: 0.00000009511084, y: -0.000000020776, z: 0.06514548, w: 0.9978758}
+  m_LocalPosition: {x: -0.13308908, y: 0.00000015258789, z: 2.9802322e-10}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1436624463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &903673287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 903673288}
+  m_Layer: 0
+  m_Name: AliceGirl_L_H03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &903673288
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 903673287}
+  m_LocalRotation: {x: 0.87911916, y: 0.35296544, z: 0.2997803, w: 0.112679906}
+  m_LocalPosition: {x: -0.5979873, y: 0.16544779, z: -0.070306726}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &906792020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 906792021}
+  - component: {fileID: 906792022}
+  m_Layer: 0
+  m_Name: Alice_Girl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906792021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 906792020}
+  m_LocalRotation: {x: 0.4935011, y: 0.5064155, z: 0.5064155, w: -0.49350113}
+  m_LocalPosition: {x: 0.030054778, y: 0.7256228, z: -0.063362375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 370776052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &906792022
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca,
+    type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 906792020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 162b62761acbae5448d2c07f2bfe66f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 2e7a130ee88f80646ba70a82804bd10d, type: 3}
+  m_Bones:
+  - {fileID: 323308238}
+  - {fileID: 1395315019}
+  - {fileID: 863712578}
+  - {fileID: 64048779}
+  - {fileID: 257556186}
+  - {fileID: 45399941}
+  - {fileID: 608357073}
+  - {fileID: 566867102}
+  - {fileID: 860144918}
+  - {fileID: 614507987}
+  - {fileID: 1837570984}
+  - {fileID: 902466774}
+  - {fileID: 2100343402}
+  - {fileID: 341150069}
+  - {fileID: 1345305012}
+  - {fileID: 1834123631}
+  - {fileID: 1867539106}
+  - {fileID: 1782156600}
+  - {fileID: 1436624463}
+  - {fileID: 1311322627}
+  - {fileID: 1181933770}
+  - {fileID: 1361397694}
+  - {fileID: 1545008694}
+  - {fileID: 917314717}
+  - {fileID: 877736507}
+  - {fileID: 2087952150}
+  - {fileID: 568627488}
+  - {fileID: 786359014}
+  - {fileID: 1571818977}
+  - {fileID: 1942233198}
+  - {fileID: 547742213}
+  - {fileID: 903673288}
+  - {fileID: 1283216600}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 64048779}
+  m_AABB:
+    m_Center: {x: -0.48866335, y: -0.039597154, z: 0.008648038}
+    m_Extent: {x: 0.8578787, y: 0.6387934, z: 0.6067113}
+  m_DirtyAABB: 0
+--- !u!1 &917314716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 917314717}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917314717
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 917314716}
+  m_LocalRotation: {x: 0.6882941, y: 0.051846027, z: 0.06039085, w: 0.7210521}
+  m_LocalPosition: {x: -0.16564678, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 864561959}
+  m_Father: {fileID: 1545008694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1181933769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1181933770}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1181933770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1181933769}
+  m_LocalRotation: {x: 0.14298259, y: 0.6267811, z: -0.19597574, w: 0.7404694}
+  m_LocalPosition: {x: -0.120224915, y: 0.0000000011920929, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_Children:
+  - {fileID: 1545008694}
+  m_Father: {fileID: 877736507}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1283216599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1283216600}
+  m_Layer: 0
+  m_Name: AliceGirl_R_H03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1283216600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1283216599}
+  m_LocalRotation: {x: 0.91770035, y: 0.34598026, z: -0.19511177, w: -0.0074261175}
+  m_LocalPosition: {x: -0.5988355, y: 0.17520961, z: 0.051644556}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1311322626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1311322627}
+  m_Layer: 0
+  m_Name: AliceGirl_F_C01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311322627
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1311322626}
+  m_LocalRotation: {x: -0.42262223, y: 0.90630597, z: 0.00000059406636, w: 0.00000024911176}
+  m_LocalPosition: {x: -0.0025764846, y: 0.16688377, z: 0.0086796945}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 341150069}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1345305011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1345305012}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1345305012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1345305011}
+  m_LocalRotation: {x: -0.6900936, y: 0.014684994, z: 0.12944533, w: 0.71189827}
+  m_LocalPosition: {x: -0.16564682, y: 0, z: -0.000000038146972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 17462772}
+  m_Father: {fileID: 1834123631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1349982008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1349982009}
+  - component: {fileID: 1349982010}
+  - component: {fileID: 1349982012}
+  - component: {fileID: 1349982013}
+  - component: {fileID: 1349982011}
+  - component: {fileID: 1349982014}
+  - component: {fileID: 1349982015}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349982009
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.9449916, z: -2.6406262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1349982010
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.22388059, g: 0.22388059, b: 0.22388059, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!81 &1349982011
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+--- !u!92 &1349982012
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+--- !u!124 &1349982013
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+--- !u!114 &1349982014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c868878752dc7d41a2a5664a3a53e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiObject: {fileID: 370776051}
+--- !u!114 &1349982015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349982008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8369565b34bd0e42ae9ba7c42445590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frog: {fileID: 370776051}
+  gameObjArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  AniList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1 &1361397693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1361397694}
+  m_Layer: 0
+  m_Name: AliceGirl_L_C02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361397694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1361397693}
+  m_LocalRotation: {x: 0.0000000011791472, y: -0.000000013927771, z: 0.11750906, w: 0.99307185}
+  m_LocalPosition: {x: -0.13072078, y: 0.000000114440915, z: -0.000000004172325}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2087952150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1395315018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1395315019}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395315019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1395315018}
+  m_LocalRotation: {x: 6.327515e-10, y: 0.0000000019840447, z: 0.15430571, w: 0.98802316}
+  m_LocalPosition: {x: -0.19582653, y: 0.0000000023841857, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 323308238}
+  m_Father: {fileID: 863712578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1436624462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1436624463}
+  m_Layer: 0
+  m_Name: AliceGirl_B_C01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1436624463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1436624462}
+  m_LocalRotation: {x: 0.00000035018456, y: -0.00000065678296, z: 0.92656606, w: 0.37613216}
+  m_LocalPosition: {x: -0.01138729, y: -0.12575889, z: 0.008679237}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 902466774}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1471929591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1471929592}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471929592
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1471929591}
+  m_LocalRotation: {x: 0.00000008956182, y: -0.00000030029605, z: -0.70710695, w: 0.70710665}
+  m_LocalPosition: {x: -0.040863585, y: 0.1021236, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 192153730}
+  m_Father: {fileID: 45399941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1512421595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1512421596}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1512421596
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1512421595}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.003710823, y: 0.3317683, z: -0.019625122}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 587134232}
+  - {fileID: 64048779}
+  m_Father: {fileID: 370776052}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1545008693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1545008694}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1545008694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1545008693}
+  m_LocalRotation: {x: 0.0000000037046055, y: -0.000000045168445, z: 0.24447972, w: 0.96965444}
+  m_LocalPosition: {x: -0.2267762, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 917314717}
+  m_Father: {fileID: 1181933770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1571818976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1571818977}
+  m_Layer: 0
+  m_Name: AliceGirl_L_H02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1571818977
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1571818976}
+  m_LocalRotation: {x: -0.04495541, y: -0.25499213, z: -0.21175537, w: 0.9424}
+  m_LocalPosition: {x: -0.15751667, y: -0.000000076293944, z: -0.000000038146972}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1942233198}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1630767971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1630767972}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630767972
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1630767971}
+  m_LocalRotation: {x: 0.73305225, y: 0.0002928135, z: -0.6801723, w: 0.00026980133}
+  m_LocalPosition: {x: -0, y: 0.000052948, z: 0.032152895}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 860144918}
+  m_Father: {fileID: 614507987}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1780694463
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -4.37113883e-08
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_RootGameObject: {fileID: 370776051}
+  m_IsPrefabParent: 0
+--- !u!1 &1782156599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1782156600}
+  m_Layer: 0
+  m_Name: AliceGirl_R_C01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1782156600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1782156599}
+  m_LocalRotation: {x: -0.25940266, y: 0.65780663, z: 0.65801394, w: 0.2588791}
+  m_LocalPosition: {x: -0.0055992887, y: 0.012773141, z: 0.15532017}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 1837570984}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1783005648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1783005649}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1783005649
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1783005648}
+  m_LocalRotation: {x: 0.000000029802322, y: 0.00000001490116, z: -0.000000014901161,
+    w: 1}
+  m_LocalPosition: {x: -0.027752684, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 17462772}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1834123630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1834123631}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834123631
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1834123630}
+  m_LocalRotation: {x: 0.0000000142073, y: -0.00000002723678, z: 0.23363693, w: 0.97232395}
+  m_LocalPosition: {x: -0.2267762, y: 0.0000000023841857, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1345305012}
+  m_Father: {fileID: 860144918}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1837570983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1837570984}
+  m_Layer: 0
+  m_Name: AliceGirl_R_C02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1837570984
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1837570983}
+  m_LocalRotation: {x: 0.0000000019822386, y: -0.0000000147705626, z: 0.117509045,
+    w: 0.99307185}
+  m_LocalPosition: {x: -0.13072081, y: 0.00000015258789, z: -0.0000000047683715}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1782156600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1867539105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1867539106}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867539106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1867539105}
+  m_LocalRotation: {x: -0.0000020762068, y: 0.00000068942916, z: 0.005710465, w: 0.9999837}
+  m_LocalPosition: {x: -0.102128945, y: -0.00007928014, z: 0.000000141263}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 863712578}
+  - {fileID: 257556186}
+  - {fileID: 2100343402}
+  - {fileID: 1436624463}
+  - {fileID: 1311322627}
+  - {fileID: 2087952150}
+  - {fileID: 1782156600}
+  m_Father: {fileID: 64048779}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935418835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1935418836}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped HeadNub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935418836
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1935418835}
+  m_LocalRotation: {x: 2.2357116e-14, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7485267, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1942233197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1942233198}
+  m_Layer: 0
+  m_Name: AliceGirl_L_H01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1942233198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 1942233197}
+  m_LocalRotation: {x: 0.1439659, y: -0.62883955, z: 0.71432084, w: 0.271257}
+  m_LocalPosition: {x: -0.13519913, y: -0.07611326, z: -0.23966734}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 1571818977}
+  m_Father: {fileID: 566867102}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2087952149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2087952150}
+  m_Layer: 0
+  m_Name: AliceGirl_L_C01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087952150
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 2087952149}
+  m_LocalRotation: {x: 0.6578075, y: 0.25940308, z: -0.2588787, w: 0.65801305}
+  m_LocalPosition: {x: -0.005599327, y: 0.012773575, z: -0.15288456}
+  m_LocalScale: {x: -0.99999994, y: -1, z: -1}
+  m_Children:
+  - {fileID: 1361397694}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2100343401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2100343402}
+  m_Layer: 0
+  m_Name: Alice_Girl_Biped Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100343402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: 030cbc9f7d7dd6149abcc567c5f6ebca, type: 2}
+  m_PrefabInternal: {fileID: 1780694463}
+  m_GameObject: {fileID: 2100343401}
+  m_LocalRotation: {x: 2.7700915e-14, y: -0.000000016942856, z: 0.0061086165, w: 0.99998134}
+  m_LocalPosition: {x: -0.09959209, y: -0.00012341856, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 614507987}
+  m_Father: {fileID: 1867539106}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 053a4ed4c00048f48a8055551095d11e
+timeCreated: 1478070702
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm_npc_1
+    100002: base_bone
+    100004: ear_l
+    100006: ear_r
+    100008: finger_2_l
+    100010: finger_2_r
+    100012: finger_l
+    100014: finger_r
+    100016: forearm_l
+    100018: forearm_r
+    100020: full_unwrapped_fixed
+    100022: //RootNode
+    100024: hand_2_l
+    100026: hand_2_r
+    100028: hand_l
+    100030: hand_l_manip
+    100032: hand_r
+    100034: hand_r_manip
+    100036: hat
+    100038: head
+    100040: heel_2_l
+    100042: heel_2_r
+    100044: heel_l
+    100046: heel_r
+    100048: leg_l_manip
+    100050: leg_r_manip
+    100052: shoulder_l
+    100054: shoulder_r
+    100056: spine_1
+    100058: spine_2
+    100060: spine_3
+    100062: tail_1
+    100064: tail_2
+    100066: tail_3
+    100068: tail_4
+    100070: tail_5
+    100072: tail_6
+    100074: tail_7
+    100076: thigh_2_l
+    100078: thigh_2_r
+    100080: thigh_l
+    100082: thigh_r
+    100084: tl
+    100086: tr
+    400000: arm_npc_1
+    400002: base_bone
+    400004: ear_l
+    400006: ear_r
+    400008: finger_2_l
+    400010: finger_2_r
+    400012: finger_l
+    400014: finger_r
+    400016: forearm_l
+    400018: forearm_r
+    400020: full_unwrapped_fixed
+    400022: //RootNode
+    400024: hand_2_l
+    400026: hand_2_r
+    400028: hand_l
+    400030: hand_l_manip
+    400032: hand_r
+    400034: hand_r_manip
+    400036: hat
+    400038: head
+    400040: heel_2_l
+    400042: heel_2_r
+    400044: heel_l
+    400046: heel_r
+    400048: leg_l_manip
+    400050: leg_r_manip
+    400052: shoulder_l
+    400054: shoulder_r
+    400056: spine_1
+    400058: spine_2
+    400060: spine_3
+    400062: tail_1
+    400064: tail_2
+    400066: tail_3
+    400068: tail_4
+    400070: tail_5
+    400072: tail_6
+    400074: tail_7
+    400076: thigh_2_l
+    400078: thigh_2_r
+    400080: thigh_l
+    400082: thigh_r
+    400084: tl
+    400086: tr
+    4300000: full_unwrapped_fixed
+    7400000: call
+    7400002: damage
+    7400004: die
+    7400006: fly
+    7400008: hit
+    7400010: hit2
+    7400012: hit3
+    7400014: idle
+    7400016: idle_action
+    7400018: idle_action2
+    7400020: jump
+    7400022: land
+    7400024: run
+    7400026: sleep
+    7400028: sleep_end
+    7400030: sleep_start
+    7400032: spell_casting
+    7400034: use
+    7400036: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: full_unwrapped_fixed
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

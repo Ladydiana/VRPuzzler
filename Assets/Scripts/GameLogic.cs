@@ -7,7 +7,7 @@ public class GameLogic : MonoBehaviour
 	public GameObject startUI, restartUI;
 	public GameObject startPoint, playPoint, restartPoint, madHatterPoint;
 	public GameObject alice;
-	private bool pressPlay = false;
+	private bool pressStart = false, pressPlay=false;
 
 	void Start()
 	{
@@ -27,24 +27,28 @@ public class GameLogic : MonoBehaviour
 		if (Input.GetMouseButtonDown(0) && player.transform.position == playPoint.transform.position)
 		{
 			PuzzleSuccess();
-			//GoToMadHatter();
-
-
 		}
 
+		if (Input.GetMouseButtonDown(0) && player.transform.position == madHatterPoint.transform.position)
+		{
+			goPlay();
+		}
 
-		//{
-		//	iTween.RotateBy(player, new Vector3 ( 0, 30, 0), 1);
-		//}
-
-
-
-		if (pressPlay) {
+		if (pressStart && !alice.GetComponent<Animation> ().IsPlaying ("Run")) {
 			alice.GetComponent<Animation> ().Play ("Run");
+		} 
+		else if (player.transform.position == madHatterPoint.transform.position) {
+			alice.GetComponent<Animation> ().Play ("Idle");
+			pressStart = false;
+		}
+		else if (pressPlay && !alice.GetComponent<Animation> ().IsPlaying ("Walk")) {
+			alice.GetComponent<Animation> ().Play ("Walk");
+		}
+		else if (player.transform.position == playPoint.transform.position) {
+			alice.GetComponent<Animation> ().Play ("Idle");
 			pressPlay = false;
 		}
-		else if (!alice.GetComponent<Animation> ().IsPlaying ("Run")) 
-			
+		else if (!alice.GetComponent<Animation> ().IsPlaying ("Run") && !alice.GetComponent<Animation> ().IsPlaying ("Walk"))
 			alice.GetComponent<Animation> ().Play ("Idle");
 	}
 
@@ -62,12 +66,7 @@ public class GameLogic : MonoBehaviour
 			)
 		);
 		alice.GetComponent<Animation> ().Play ("Run");
-		pressPlay = true;
-
-
-
-		//alice.GetComponent<Animation> ().Play ("Idle");
-
+		pressStart = true;
 	}
 
 	// Reset the puzzle sequence.
@@ -89,6 +88,21 @@ public class GameLogic : MonoBehaviour
 		);
 	}
 
+	// Do this to start playing.
+	public void goPlay()
+	{
+		iTween.MoveTo(player,
+			iTween.Hash(
+				"position", playPoint.transform.position,
+				"time", 2.5,
+				"easetype", "linear"
+			)
+		);
+		alice.GetComponent<Animation> ().Play ("Walk");
+		pressPlay = true;
+	}
+
+
 	public void GoToMadHatter()
 	{
 		iTween.MoveTo(player,
@@ -98,7 +112,6 @@ public class GameLogic : MonoBehaviour
 				"easetype", "linear"
 			)
 		);
-		//iTween.RotateTo(player, iTween.Hash("rotation", 30, "time", 1, "easetype", "linear"));
 	}
 
 	public void ToggleUI()

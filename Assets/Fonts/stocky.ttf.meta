@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ac2d8e02850b35c47b3a1fd9c1cd354a
+timeCreated: 1510318095
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stocky
+  fontNames:
+  - Stocky
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

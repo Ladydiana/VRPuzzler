@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c254ba2175c9bfa4a9b99272cbb73abf
+timeCreated: 1510317725
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GoodDog
+  fontNames:
+  - GoodDog
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

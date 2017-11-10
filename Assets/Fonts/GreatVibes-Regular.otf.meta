@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7f33981fe9ce89242b645f654e7cfc09
+timeCreated: 1510317675
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Great Vibes
+  fontNames:
+  - Great Vibes
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

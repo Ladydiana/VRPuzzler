@@ -8,7 +8,10 @@ public class GameLogic : MonoBehaviour
 	public GameObject eventSystem;
 	public GameObject startPoint, playPoint, restartPoint, madHatterPoint;
 	public GameObject alice;
+	//public AudioClip[] clips;
 	private bool pressStart = false, pressPlay=false;
+
+	public GvrAudioSource[] sources;
 
 	// An array to hold the orbs.
 	public GameObject[] puzzleSpheres;
@@ -45,8 +48,7 @@ public class GameLogic : MonoBehaviour
 		// Set the size of our array to the declared puzzle length.
 		puzzleOrder = new int[puzzleLength];
 
-		// Create a random puzzle sequence.
-		GeneratePuzzleSequence();
+		sources[0].Play ();
 
 	}
 
@@ -64,6 +66,7 @@ public class GameLogic : MonoBehaviour
 		else if (player.transform.position == madHatterPoint.transform.position && pressStart==true) {
 			alice.GetComponent<Animation> ().Play ("Idle");
 			pressStart = false;
+			sources[2].Play ();
 		}
 		else if (pressPlay && !alice.GetComponent<Animation> ().IsPlaying ("Walk")) {
 			alice.GetComponent<Animation> ().Play ("Walk");
@@ -108,6 +111,8 @@ public class GameLogic : MonoBehaviour
 		);
 		alice.GetComponent<Animation> ().Play ("Run");
 		pressStart = true;
+		sources [0].Pause ();
+		sources [1].Play ();
 	} 
 
 	// Begin the puzzle sequence.
@@ -127,6 +132,9 @@ public class GameLogic : MonoBehaviour
 	{
 		player.transform.position = startPoint.transform.position;
 		startUI.SetActive(true);
+		restartUI.SetActive (false);
+		sources [1].Pause();
+		sources [0].Play ();
 	}
 
 
@@ -165,7 +173,7 @@ public class GameLogic : MonoBehaviour
 			// Move one to the next orb.
 			currentDisplayIndex++;
 
-			Debug.Log("Display index " + currentDisplayIndex + ": Orb index " + puzzleOrder[currentDisplayIndex]);
+			Debug.Log("Display index " + currentDisplayIndex + ": Orb index " + puzzleOrder[currentDisplayIndex-1]);
 		}
 		// If we have reached the end of the display pattern.
 		else

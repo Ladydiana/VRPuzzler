@@ -6,7 +6,7 @@ public class GameLogic : MonoBehaviour
 	public GameObject player;
 	public GameObject startUI, restartUI;
 	public GameObject eventSystem;
-	public GameObject startPoint, playPoint, restartPoint, madHatterPoint;
+	public GameObject startPoint, playPoint, restartPoint, madHatterPoint, curvePoint1, curvePoint2;
 	public GameObject alice;
 	//public AudioClip[] clips;
 	private bool pressStart = false, pressPlay=false;
@@ -58,6 +58,14 @@ public class GameLogic : MonoBehaviour
 		if (Input.GetMouseButtonDown(0) && player.transform.position == madHatterPoint.transform.position)
 		{
 			goPlay();
+		}
+
+		if (player.transform.position == curvePoint1.transform.position) {
+			goCurve2();
+		}
+
+		if (player.transform.position == curvePoint2.transform.position) {
+			goRestart ();
 		}
 
 		if (pressStart && !alice.GetComponent<Animation> ().IsPlaying ("Run")) {
@@ -152,6 +160,45 @@ public class GameLogic : MonoBehaviour
 		pressPlay = true;
 	}
 
+	// Start exiting
+	public void goCurve1()
+	{
+		iTween.MoveTo(player,
+			iTween.Hash(
+				"position", curvePoint1.transform.position,
+				"time", 1,
+				"easetype", "linear"
+			)
+		);
+		//alice.GetComponent<Animation> ().Play ("Walk");
+		//pressPlay = true;
+	}
+
+	public void goCurve2()
+	{
+		iTween.MoveTo(player,
+			iTween.Hash(
+				"position", curvePoint2.transform.position,
+				"time", 1,
+				"easetype", "linear"
+			)
+		);
+		//alice.GetComponent<Animation> ().Play ("Walk");
+		//pressPlay = true;
+	}
+
+	public void goRestart() {
+		
+		// Move the player to the restart position.
+		iTween.MoveTo(player,
+			iTween.Hash(
+				"position", restartPoint.transform.position,
+				"time", 1,
+				"easetype", "linear"
+			)
+		);
+	}
+
 
 	// Disaplay the
 	// Called from StartPuzzle() and invoked repeatingly.
@@ -244,15 +291,7 @@ public class GameLogic : MonoBehaviour
 	{
 		// Enable the restart UI.
 		restartUI.SetActive(true);
-
-		// Move the player to the restart position.
-		iTween.MoveTo(player,
-			iTween.Hash(
-				"position", restartPoint.transform.position,
-				"time", 2,
-				"easetype", "linear"
-			)
-		);
+		goCurve1 ();
 	}
 
 	// Do this when the player selects the wrong sphere.

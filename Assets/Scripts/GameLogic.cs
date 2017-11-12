@@ -8,6 +8,7 @@ public class GameLogic : MonoBehaviour
 	public GameObject eventSystem;
 	public GameObject startPoint, playPoint, restartPoint, madHatterPoint, curvePoint1, curvePoint2;
 	public GameObject alice;
+	public GameObject poof;
 	//public AudioClip[] clips;
 	private bool pressStart = false, pressPlay=false;
 
@@ -166,7 +167,7 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", curvePoint1.transform.position,
-				"time", 1,
+				"time", 0.5,
 				"easetype", "linear"
 			)
 		);
@@ -179,7 +180,7 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", curvePoint2.transform.position,
-				"time", 1,
+				"time", 0.5,
 				"easetype", "linear"
 			)
 		);
@@ -193,7 +194,7 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", restartPoint.transform.position,
-				"time", 1,
+				"time", 0.5,
 				"easetype", "linear"
 			)
 		);
@@ -291,6 +292,9 @@ public class GameLogic : MonoBehaviour
 	{
 		// Enable the restart UI.
 		restartUI.SetActive(true);
+		//alice.Instantiate(poof, transform.position, Quaternion.Euler(-90, 0, 0));
+
+		//FindObjectOfType<Particles> ().ParticleOn ();
 		goCurve1 ();
 	}
 

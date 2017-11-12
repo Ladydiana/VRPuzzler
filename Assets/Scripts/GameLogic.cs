@@ -6,10 +6,8 @@ public class GameLogic : MonoBehaviour
 	public GameObject player;
 	public GameObject startUI, restartUI;
 	public GameObject eventSystem;
-	public GameObject startPoint, playPoint, restartPoint, madHatterPoint, curvePoint1, curvePoint2;
+	public GameObject startPoint, playPoint, restartPoint, madHatterPoint, curvePoint1, curvePoint2, curvePoint3;
 	public GameObject alice;
-	public GameObject poof;
-	//public AudioClip[] clips;
 	private bool pressStart = false, pressPlay=false;
 
 	public GvrAudioSource[] sources;
@@ -66,6 +64,10 @@ public class GameLogic : MonoBehaviour
 		}
 
 		if (player.transform.position == curvePoint2.transform.position) {
+			goCurve3 ();
+		}
+
+		if (player.transform.position == curvePoint3.transform.position) {
 			goRestart ();
 		}
 
@@ -120,7 +122,8 @@ public class GameLogic : MonoBehaviour
 		);
 		alice.GetComponent<Animation> ().Play ("Run");
 		pressStart = true;
-		sources [0].Pause ();
+		//sources [0].Pause ();
+		sources [0].Stop ();
 		sources [1].Play ();
 	} 
 
@@ -128,7 +131,7 @@ public class GameLogic : MonoBehaviour
 	public void StartPuzzle()
 	{
 		// Call the DisplayPattern() function repeatedly.
-		//CancelInvoke("DisplayPattern");
+		CancelInvoke("DisplayPattern");
 		InvokeRepeating("DisplayPattern", 3, puzzleSpeed);
 
 		// Reset the index the player is trying to solving.
@@ -142,7 +145,8 @@ public class GameLogic : MonoBehaviour
 		player.transform.position = startPoint.transform.position;
 		startUI.SetActive(true);
 		restartUI.SetActive (false);
-		sources [1].Pause();
+		//sources [1].Pause();
+		sources[1].Stop();
 		sources [0].Play ();
 	}
 
@@ -167,12 +171,10 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", curvePoint1.transform.position,
-				"time", 0.5,
+				"time", 0.1,
 				"easetype", "linear"
 			)
 		);
-		//alice.GetComponent<Animation> ().Play ("Walk");
-		//pressPlay = true;
 	}
 
 	public void goCurve2()
@@ -180,12 +182,21 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", curvePoint2.transform.position,
-				"time", 0.5,
+				"time", 0.1,
 				"easetype", "linear"
 			)
 		);
-		//alice.GetComponent<Animation> ().Play ("Walk");
-		//pressPlay = true;
+	}
+
+	public void goCurve3()
+	{
+		iTween.MoveTo(player,
+			iTween.Hash(
+				"position", curvePoint3.transform.position,
+				"time", 0.1,
+				"easetype", "linear"
+			)
+		);
 	}
 
 	public void goRestart() {
@@ -194,7 +205,7 @@ public class GameLogic : MonoBehaviour
 		iTween.MoveTo(player,
 			iTween.Hash(
 				"position", restartPoint.transform.position,
-				"time", 0.5,
+				"time", 0.1,
 				"easetype", "linear"
 			)
 		);
@@ -292,9 +303,7 @@ public class GameLogic : MonoBehaviour
 	{
 		// Enable the restart UI.
 		restartUI.SetActive(true);
-		//alice.Instantiate(poof, transform.position, Quaternion.Euler(-90, 0, 0));
-
-		//FindObjectOfType<Particles> ().ParticleOn ();
+		sources[3].Play ();
 		goCurve1 ();
 	}
 
@@ -311,6 +320,7 @@ public class GameLogic : MonoBehaviour
 		currentSolveIndex = 0;
 
 		// Begin the puzzle sequence.
+		sources[4].Play ();
 		StartPuzzle();
 	}
 }
